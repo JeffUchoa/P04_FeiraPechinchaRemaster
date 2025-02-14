@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.LogoFeira {
+    height: auto;
+    width: auto;
+}
+
+.header{
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-sizing: border-box;
+    transition: .3s ease-in;
+}
+
+.header-bg{
+   background-color :#2C2C6B;
+}
+
+.LogoFeira{
+    height: 50px;
+    cursor: pointer;
+}
+
+.InsideHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.OpcaoHeader{
+    color: aliceblue;
+    margin-left: 30px;
+    font-family: titulo;
+    font-size: large;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../Fonts/Inter_24pt-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: paragrafo;
+    src: url(../Fonts/Inter_28pt-Regular.ttf);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.Personagens{
+    position:absolute;
+    z-index: 2;
+    
+}

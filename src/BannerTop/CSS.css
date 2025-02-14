@@ -1,0 +1,58 @@
+@font-face {
+    font-family: titulo;
+    src: url(../Fonts/Inter_24pt-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: paragrafo;
+    src: url(../Fonts/Inter_28pt-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: paragrafo;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: titulo;
+    font-size: 102px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.banner {
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top right ;
+    height: 100vh;
+    width: 100%;
+}
+
+.mensagem {
+    color: aliceblue;
+    position:absolute;
+    top: 50%;
+    left: 200px;
+    transform: translateY(-50%) translateX(-0%);
+    width: 35%;
+}
+
+.BannerMensagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Personagens{
+    position:absolute;
+    z-index: 4;
+    width: 426px;
+    height: 747px;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%) translateX(-100%);
+}

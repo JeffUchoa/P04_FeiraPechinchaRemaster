@@ -1,0 +1,83 @@
+@font-face {
+    font-family: titulo;
+    src: url(../Fonts/Inter_24pt-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: paragrafo;
+    src: url(../Fonts/Inter_28pt-Regular.ttf);
+}
+
+p {
+    font-family: paragrafo;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: titulo;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+}
+
+.Sobre {
+    width: 100%;
+    position: relative;
+    min-height: 600px;
+    display: grid;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    justify-items: center; 
+    justify-content: center;
+    overflow: hidden;
+ 
+}
+
+.ImagemSobreNos {
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    padding: 30px;
+    grid-column: 2 / 2;
+    position: absolute;
+    
+}
+
+.retangulo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: -3;
+    height: min-content;
+    width: 90%;
+    background-color: #2C2C6B;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.Texto {
+    margin-right: 30px;
+    width: 100%;
+    grid-column: 1 / 2;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    grid-area: 1/2;
+    position: relative;
+    
+}
+
+.organizacao{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+}

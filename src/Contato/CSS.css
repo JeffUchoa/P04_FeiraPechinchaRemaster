@@ -1,0 +1,74 @@
+.Contato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.ContatoConteudo{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 3fr;
+}
+.ImagemContato{
+    grid-template-areas: 1/2;
+    height:650px;
+    
+    
+}
+.FormasContato{
+    grid-template-areas: 2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.ContatoTexto{
+    margin-left: 40px;
+    color: #2C2C6B;
+
+}
+.ContatosContatos{
+
+}
+.BotaoContato{
+
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 90%;
+    border-radius: 10px;
+    border-color: #2C2C6B;
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.BotaoContato:hover {
+    background-color: #2C2C6B;
+}
+
+.BotaoContato:hover .TextoBotaoContato {
+    color: aliceblue;
+}
+
+.TextoBotaoContato {
+    grid-template-areas: 2/2;
+    font-family: paragrafo;
+    color: #2C2C6B;
+    font-size: large;
+    transition: 0.5s;
+    display: flex;
+    justify-content: left;
+}
+
+.ContatoMidia {
+    grid-template-areas: 1/2;
+    height: 50px;
+    margin-left: 10px;
+}
